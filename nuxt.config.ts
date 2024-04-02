@@ -1,4 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true }
+  devtools: { enabled: true },
+  modules: ['@nuxtjs/tailwindcss', 'nuxt-icons', '@nuxt/image', ['@nuxtjs/google-fonts', {
+    families: {
+      Rubik: {
+        wght: "400..900"
+      },
+    }
+  }]],
+
 })
