@@ -5,7 +5,7 @@
             <span class="text-gradient">Corporate
                 Training</span> Bundles
         </h3>
-        <ul class="mt-[72px] flex flex-col gap-6 xl:flex-row px-[15px]">
+        <ul class="mt-[72px] flex flex-col gap-6 xl:flex-row px-[15px] xl:items-start">
             <!-- Basic -->
             <li class="w-full xl:w-[640px] rounded-[30px] border bg-[#2B2F44] p-[40px] xl:px-[24px] mx-auto">
                 <h2 class="flex items-center gap-[16px]"> <nuxt-icon name="leaf" filled class="text-[32px]" />

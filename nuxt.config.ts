@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', 'nuxt-icons', '@nuxt/image', ['@nuxtjs/google-fonts', {
+  modules: ['@nuxtjs/strapi', '@nuxtjs/tailwindcss', 'nuxt-icons', '@nuxt/image', ['@nuxtjs/google-fonts', {
     families: {
       Rubik: {
         wght: "400..900"
